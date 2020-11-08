@@ -1,6 +1,10 @@
 .App {
   text-align: center;
 }
+.person:hover{
+  cursor: pointer;
+  color: firebrick;
+}
 .btn{
   margin: 10px;
   padding: 10px;
