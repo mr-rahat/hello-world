@@ -6,6 +6,29 @@
   padding: 10px;
   cursor: pointer ;
 }
+.Nav-bar{
+  background-color: #282c34;
+}
+.Nav-bar ul{
+  list-style: none;
+}
+.Nav-bar ul li{
+  display: inline-block;
+  margin: 20px;
+  cursor: pointer;
+}
+.Nav-bar ul li a {
+  text-align: left;
+ text-decoration: none;
+ color: whitesmoke;
+ font-size: larger;
+}
+.Nav-bar a.active{
+  color: darkgreen;
+} 
+.Nav-bar a:hover, a:active{
+  color: darkgreen;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

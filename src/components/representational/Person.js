@@ -6,7 +6,7 @@ export let Person = (props) => {
         marginBottom: "1em",
         padding: "1em"
     };
-    console.log('I am in Person .js');
+
     return (
         <div style={stylist}>
             <p className="btn" onClick={props.delete}>I am {props.name} & Age {props.age} years old </p>
